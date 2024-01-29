@@ -44,6 +44,7 @@
 
 /*-------------------------------------------------------*/
 
+.textarea::placeholder {color: var(--dark-blue-300); font-weight: bold; }
 
 .textarea {
     color: var(--dark-blue-300);
@@ -51,13 +52,14 @@
     min-height: 50vh;
     padding: 12px 20px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 1px solid var(--gray-100);
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
     font-size: 20px;
     font-weight: bold;
   }
+
 
 
 .container-center-1{
@@ -105,10 +107,19 @@
     
     color: var(--white);
 }
+
+.button-1:hover{
+    background: var(--dark-blue-400);
+}
+
 .button-2 {
+    background:#D8DFE8;
     color: var(--Dark-blue-dark-blue-300, #0A3871);
     border: 1px solid var(--Dark-blue-dark-blue-300, #0A3871);
+}
 
+.button-2:hover{
+    background:#c3d1e4;
 }
 
 .button-1, .button-2 {
