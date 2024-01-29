@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Mulish:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --dark-blue : #609ED4;
+    --dark-blue-200 : #356EA9;
+    --dark-blue-300 : #0A3891;
+    --dark-blue-400 : #072B61; 
+    --dark-blue-500 : #052051;
+
+    --gray-100 : #CED4DA;
+    --gray-200 : #ADB5BD;
+    --gray-300 : #868E96; 
+    --gray-400 : #495057;
+    --gray-500 : #343A40; 
+    --grayscale-900 : #212529; 
+    --white : #FFFFFF; 
+
+    --light-blue-200 : #EFF1FA; 
+    --light-blue-300 : #E9ECF8; 
+    --light-blue-400 : #AAB2D5; 
+    --light-bleu-500 : #757FB2; 
+
+}
+
+*{
+    font-family: "Inter";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body{
+    background: var(--Light-blue-light-blue-100, #F3F5FC);
+    min-height: 100vh;
+}
+
+/*-------------------------------------------------------*/
+
+.container-navbar{
+    display: flex;
+    margin-top: 4vW ;
+    margin-left: 4vW ;  
+}
+
+/*-------------------------------------------------------*/
+
+
+.textarea {
+    color: var(--dark-blue-300);
+    width: 100%;
+    min-height: 50vh;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+
+.container-center-1{
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-right: 30%;
+    margin-bottom: 0;
+    height: 50%;
+    width: 60%;
+}
+/*-------------------------------------------------------*/
+
+.container-text-output{
+    background: #356EA9;
+    width: fit-content;
+}
+/*-------------------------------------------------------*/
+
+.container-info{
+    display: flex;
+    gap: 8px;
+    margin-top:-2%;
+    margin-bottom: 2%;
+}
+
+/*-------------------------------------------------------*/
+.container-center{
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-right: 30%;
+    margin-bottom: 0;
+    height: 40%;
+    width: 60%;
+}
+
+.container-button{
+    display: flex;
+    gap: 8px;
+
+}
+
+.button-1{
+    border: none;
+    background: var(--Dark-blue-dark-blue-300, #0A3871);
+    
+    color: var(--white);
+}
+.button-2 {
+    color: var(--Dark-blue-dark-blue-300, #0A3871);
+    border: 1px solid var(--Dark-blue-dark-blue-300, #0A3871);
+
+}
+
+.button-1, .button-2 {
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 400;
+
+    border-radius: 24px;
+    width: 100%; 
+    padding: 3%;
+}
+
+    /*-------------------------------------------------------*/

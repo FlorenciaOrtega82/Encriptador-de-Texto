@@ -1,0 +1,6 @@
+
+-- Ideas para solucionar la pagina
+
+1- Seleccionar el Recuadro de respuesta, poner un position relative/absolute y posicionarlo. 
+    Poner al input y a los botones como display flex y alinearlos al centro de la pagina 
+2- Poner un div que ocupe un porcentaje de la pantalla y ajustar los demas contenedores 
