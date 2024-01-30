@@ -98,7 +98,7 @@
 .container-button{
     display: flex;
     gap: 8px;
-
+    
 }
 
 .button-1{
@@ -132,5 +132,17 @@
     width: 100%; 
     padding: 3%;
 }
+
+    /*-------------------------------------------------------*/
+
+.container-text-output{
+    position: absolute;
+    margin-top: -31.5%;
+    margin-left: 73%;
+    margin-right: 30%;
+    height: 85%;
+    width: 25%;
+}
+
 
     /*-------------------------------------------------------*/
