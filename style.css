@@ -147,6 +147,7 @@
     border-radius: 12px;
     border: 2px solid black;
 
+    overflow-y: scroll;
 
 }
 
@@ -172,31 +173,12 @@
     margin-left: 4.3%;
     font-weight: 500;
     color: var(--gray-500);
+
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
     /*-------------------------------------------------------*/
-/*
-.botonCopiar{
-    border: none;
-    background: var(--Dark-blue-dark-blue-300, #0A3871);
-    color: var(--white);
 
-
-    display: none;
-    align-items: center;
-    justify-content: center;
-
-    margin-left: 5%;
-    margin-top: 20%;
-
-    font-size: 16px;
-    font-weight: 400;
-
-    height: 50px;
-    border-radius: 10px;
-    width: 90%; 
-    padding: 3%;
-
-}*/
 
 .botonCopiar{
     border: none;
