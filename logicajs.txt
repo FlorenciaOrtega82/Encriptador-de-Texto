@@ -1,0 +1,23 @@
+
+        LOGICA DE ENCRIPTADOR DE TEXTO
+------------------------------------------------------------------------------------------------------------------------------------
+- funciones necesarias 
+    - Encriptar 
+    - Desencriptar
+    - Copiar texto
+    - Funcion que recorra el texto y cambie las letras por la encriptacions
+- Variables necesarias
+    - Cambios de letras
+    - Textarea 
+    - Salida
+- Verificar que el texto no tenga ni acentos, mayusculas ni caracteres especiales
+- extra: Pasar el texto a LowerCase
+- 
+
+TODO 
+
+-  //Mostrar texto en el otro textarea
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
