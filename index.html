@@ -19,12 +19,12 @@
     
     <div class="container">
         <!-- Componente -->
-        <div class="container-input container-center-1">
+        <div class="container-input container-center">
             <textarea id="textarea" class="textarea" cols="30" rows="10" placeholder="Ingrese el texto aquí"  ></textarea>
             
         </div>
         <!-- Componente Side Resultado -->
-            <section class="container-text-output">
+            <div class="container-text-output">
                 <div class="imagen-container">
                     <img class="imagen" id="imgDerecha" src="./img/Muñeco.svg" alt="Imagen de buscador">
                     <p class="mensaje-no-encontrado" id="textoDerecha">
@@ -37,7 +37,7 @@
                 <button onclick="copiarTexto();" class="botonCopiar" id="copiar">
                     Copiar
                 </button>
-            </section>
+            </div>
             
         <!-- Botones -->
         <div class="container-center">
@@ -56,7 +56,10 @@
                 </button>
             </div>
         </div>
-            
+
+        <footer class="footer">
+            <p>&copy; 2024 Ortega Florencia. Todos los derechos reservados.</p>
+        </footer>
     </div>
 
     <script src="app.js"></script>

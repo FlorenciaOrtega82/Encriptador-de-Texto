@@ -13,7 +13,8 @@ TO DO
 - Describir paso a paso todo lo necesario para terminar la logica
 
 - Hacer el sitio responsivo, para tablets, celulares y escritorio
-
+- Cambiar respuesta de texto 2 de un P a un textarea para que se ajuste al tamaño del contenedore
+- Buscar de fijar el boton luego de cambiar a textarea
 
 ------------------------------------------------------------------------------------------------------------------------------------
 
@@ -25,7 +26,7 @@ TODO LO NECESARIO PARA EL ENCRIPTADOR
 ------------------------------------------------------------------------------------------------------------------------------------
     Elementos principales de la página
 
-[] - Título de su sitio web
+[X] - Título de su sitio web
 
 [X] - Campo para el texto que va a ser encriptado/desencriptado
 
@@ -37,9 +38,9 @@ TODO LO NECESARIO PARA EL ENCRIPTADOR
 
     Extra!
 
-[] - Un footer  con los datos de la persona que desarrolló el sitio web!
+[X] - Un footer  con los datos de la persona que desarrolló el sitio web!
 
-[] - Botón para copiar texto
+[X] - Botón para copiar texto
 
 ------------------------------------------------------------------------------------------------------------------------------------
 [

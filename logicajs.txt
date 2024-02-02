@@ -16,9 +16,8 @@
 
 TODO 
 
--  //Mostrar texto en el otro textarea
+[X]  //Mostrar texto en el otro textarea
 
-- Hacer que el alto del 2 texto de respuesta, solo ocupe una parte y la demas que sobra , la ocupe el boton
 
 
 
