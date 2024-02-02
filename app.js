@@ -15,7 +15,6 @@ function encriptarTexto() {
 
   console.log(txtCifrado);
   document.getElementById("imgDerecha").style.display = "none";
-
   document.getElementById("textoDerecha").style.display = "none";
   document.getElementById("texto2Derecha").innerHTML = txtCifrado;
   document.getElementById("copiar").style.display = "show";
@@ -31,15 +30,50 @@ function desencriptarTexto() {
   var txtCifrado = txtCifrado.replace(/ai/gim, "a");
   var txtCifrado = txtCifrado.replace(/ufat/gim, "u");
 
-  console.log(txtCifrado);
-  document.getElementById("imagen de la derecha").style.display = "none";
-  /*
-    document.getElementById("texto de la derecha").style.display = none;
-    document.getElementById("texto2 de la derecha").innerHTML= txtCifrado;
-    document.getElementById("copiar").style.display = "show";
-    document.getElementById("copiar").style.display = "inherit";
-  
-  */
+  document.getElementById("imgDerecha").style.display = "none";
+  document.getElementById("textoDerecha").style.display = "none";
+  document.getElementById("texto2Derecha").innerHTML = txtCifrado;
+  document.getElementById("copiar").style.display = "show";
+  document.getElementById("copiar").style.display = "inherit";
 }
 
-function copiar() {}
+/*
+function copiarTexto() {
+  // Obtener el elemento que contiene el texto
+  var textoElemento = document.getElementById("texto2Derecha").innerText;
+
+  // Crear un elemento de texto temporal
+  var textarea = document.createElement("textarea");
+  textarea.value = texto;
+
+  // Añadir el elemento al DOM
+  document.body.appendChild(textarea);
+
+  // Seleccionar el texto en el elemento
+  textarea.select();
+  textarea.setSelectionRange(0, 99999); // Para dispositivos móviles
+
+  // Ejecutar el comando de copiar
+  document.execCommand("copy");
+
+  // Eliminar el elemento temporal
+  document.body.removeChild(textarea);
+
+  // Mostrar algún tipo de confirmación (puede ser una alerta o un mensaje en la interfaz)
+  alert("Texto copiado al portapapeles: " + texto);
+}*/
+function copiarTexto() {
+  var textoElemento = document.getElementById("texto2Derecha");
+  var texto = textoElemento.innerText;
+
+  navigator.clipboard
+    .writeText(texto)
+    .then(function () {
+      // Éxito al copiar
+      alert("¡Texto copiado al portapapeles con exito! ");
+    })
+    .catch(function (err) {
+      // Manejar cualquier error durante la escritura en el portapapeles
+      console.error("No se pudo copiar el texto: ", err);
+    });
+}
