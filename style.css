@@ -18,7 +18,7 @@
     --light-blue-200 : #EFF1FA; 
     --light-blue-300 : #E9ECF8; 
     --light-blue-400 : #AAB2D5; 
-    --light-bleu-500 : #757FB2; 
+    --light-blue-500 : #757FB2; 
 
 }
 
@@ -32,57 +32,67 @@
 .body{
     background: var(--Light-blue-light-blue-100, #F3F5FC);
     min-height: 100vh;
+
 }
 
 /*-------------------------------------------------------*/
+.logo{
+    min-width: 10vw;
+    max-width: 10vw;
+
+}
 
 .container-navbar{
     display: flex;
     margin-top: 4vW ;
-    margin-left: 4vW ;  
+    margin-left: 4vW ; 
+ 
+}
+
+.container-navbar h1{
+    font-size: 3vw;
+    color: var(--dark-blue-500);
+    align-self: center;
+    margin-left: 20%;
 }
 
 /*-------------------------------------------------------*/
 
-.textarea::placeholder {color: var(--dark-blue-300); font-weight: bold; }
+.textarea::placeholder {
+    color: var(--dark-blue-300); 
+    font-weight: bold;
+ }
 
 .textarea {
     color: var(--dark-blue-300);
     width: 100%;
     min-height: 50vh;
-    padding: 12px 20px;
+    padding: 2vw;
     box-sizing: border-box;
-    border: 1px solid var(--gray-100);
-    border-radius: 4px;
+    border: 0.1vw solid var(--gray-100);
+    border-radius: 0.5vw;
     background-color: #f8f8f8;
     resize: none;
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: bold;
   }
 
 
-
-.container-center-1{
-    margin-left: 15%;
-    margin-top: 3%;
-    margin-right: 30%;
-    margin-bottom: 0;
-    height: 50%;
-    width: 55%;
-}
-/*-------------------------------------------------------*/
-
-.container-text-output{
-    background: #356EA9;
-    width: fit-content;
-}
 /*-------------------------------------------------------*/
 
 .container-info{
     display: flex;
-    gap: 8px;
-    margin-top:-2%;
-    margin-bottom: 2%;
+    gap: 2vw; 
+    margin-top: -1vw; 
+    margin-bottom: 1vw; 
+    width: fit-content;
+    font-size: 1.3vw;
+    font-weight: bold;
+}
+
+.exclamation-circle{
+    min-width: 1.5vw;
+
 }
 
 /*-------------------------------------------------------*/
@@ -92,13 +102,12 @@
     margin-right: 30%;
     margin-bottom: 0;
     height: 40%;
-    width: 55%;
+    width: 60%;
 }
 
 .container-button{
     display: flex;
-    gap: 8px;
-
+    gap: 1vw;
 }
 
 .button-1{
@@ -122,15 +131,104 @@
     background:#c3d1e4;
 }
 
-.button-1, .button-2 {
+.button-1, .button-2{
+    cursor: pointer;
     display: flex;
     justify-content: center;
-    font-size: 16px;
+    font-size: 1.5vw;
     font-weight: 400;
-
-    border-radius: 24px;
+    border-radius: 1.5vw;
     width: 100%; 
-    padding: 3%;
+    padding: 1.5vw;
 }
 
     /*-------------------------------------------------------*/
+
+.container-text-output{
+    position: absolute;
+    margin-top: -31.5%;
+    margin-left: 78%;
+    height: 85%;
+    width: 20%;
+    border-radius: 1vw;
+    border: 0.1vw solid black;
+    overflow-y: scroll;
+}
+
+.imagen-container .imagen{
+    width:17vw;
+    margin-top: 10vw;
+    margin-left: 1.5vw;
+    text-align: center;
+    display: flex;
+
+}
+
+.mensaje-no-encontrado {
+    font-weight: bolder;
+    font-size: 1.7vw;
+    color: var(--gray-500);
+    text-align: center;
+    display: flex;
+}
+
+.mensaje-2{
+    font-size: 1.3vw;
+    text-align: center;
+    margin-left: 4.3%;
+    font-weight: 500;
+    color: var(--gray-500);
+
+    margin-top: 5vh;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+    /*-------------------------------------------------------*/
+
+
+.botonCopiar{
+    cursor: pointer;
+
+    border: none;
+    background: var(--Dark-blue-dark-blue-300, #0A3871);
+    color: var(--white);
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.3vw;
+    font-weight: 400;
+
+    height: 4vw;
+    border-radius: 0.5vw;
+    width: 90%; 
+    padding: 3%;
+
+   position: absolute;
+    bottom: 3vh;
+    left: 54%; 
+    transform: translateX(-50%); 
+
+  
+    
+}
+
+.botonCopiar:hover{
+    background: var(--dark-blue-400);
+}
+
+.footer {
+    font-size: 1.3vw;
+    background-color: var(--light-blue-500);
+    color: var(--grayscale-900);
+    text-align: center;
+    padding: 0.5vw;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: bolder;
+}
+
+/*---------------------------------------------------------------

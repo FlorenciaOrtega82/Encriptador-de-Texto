@@ -11,28 +11,33 @@
     <!-- NavBar -->
     <nav class="container-navbar">
             <img class="logo" src="./img/Logo.svg" alt="Logo">
+            <h1 class="titulo">
+                Encriptador de texto
+            </h1>
     </nav>
     
     
     <div class="container">
         <!-- Componente -->
-        <div class="container-input container-center-1">
-            <textarea class="textarea" cols="30" rows="10" placeholder="Ingrese el texto aquí"  ></textarea>
+        <div class="container-input container-center">
+            <textarea id="textarea" class="textarea" cols="30" rows="10" placeholder="Ingrese el texto aquí"  ></textarea>
             
         </div>
-        <!-- Componente Side Resultado 
-            <section class="container-text-output">
+        <!-- Componente Side Resultado -->
+            <div class="container-text-output">
                 <div class="imagen-container">
-                    <img class="imagen" src="./img/Muñeco.svg" alt="Imagen de buscador">
-                    <p class="mensaje-no-encontrado">
+                    <img class="imagen" id="imgDerecha" src="./img/Muñeco.svg" alt="Imagen de buscador">
+                    <p class="mensaje-no-encontrado" id="textoDerecha">
                         Ningún mensaje fue encontrado
                     </p>
-                    <p>
+                    <p class="mensaje-2" id="texto2Derecha">
                         Ingresa el texto que desees encriptar o desencriptar
                     </p>
                 </div>
-            </section>
-        -->
+                <button onclick="copiarTexto();" class="botonCopiar" id="copiar">
+                    Copiar
+                </button>
+            </div>
             
         <!-- Botones -->
         <div class="container-center">
@@ -43,15 +48,18 @@
                 </p>
             </div>
             <div class="container-button">
-                <button class="button-1">
+                <button onclick="encriptarTexto();" class="button-1" >
                     Encriptar
                 </button>
-                <button class="button-2">
+                <button onclick="desencriptarTexto();" class="button-2">
                     Desencriptar
                 </button>
             </div>
         </div>
-            
+
+        <footer class="footer">
+            <p>&copy; 2024 Ortega Florencia. Todos los derechos reservados.</p>
+        </footer>
     </div>
 
     <script src="app.js"></script>
