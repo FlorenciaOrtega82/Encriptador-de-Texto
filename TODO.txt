@@ -12,6 +12,7 @@ TO DO
 - Empezar con la logica del sitio
 - Describir paso a paso todo lo necesario para terminar la logica
 
+- Hacer que se distribuyan los contenerdres y componentes dependiendo de la pantalla 
 - Hacer el sitio responsivo, para tablets, celulares y escritorio
 - Cambiar respuesta de texto 2 de un P a un textarea para que se ajuste al tamaño del contenedore
 - Buscar de fijar el boton luego de cambiar a textarea
